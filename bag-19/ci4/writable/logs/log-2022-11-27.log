@@ -1,0 +1,43 @@
+CRITICAL - 2022-11-27 06:55:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\kategori\update.php on line 8.
+ 1 APPPATH\Views\kategori\update.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\kategori\\update.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kategori\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('kategori/update', [], true)
+ 5 APPPATH\Controllers\Admin\kategori.php(65): view('kategori/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\kategori->find('5')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 06:56:27 --> Trying to access array offset on value of type null
+in APPPATH\Views\kategori\update.php on line 8.
+ 1 APPPATH\Views\kategori\update.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\kategori\\update.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kategori\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('kategori/update', [], true)
+ 5 APPPATH\Controllers\Admin\kategori.php(65): view('kategori/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\kategori->find('5')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 10:42:23 --> Undefined variable $file
+in APPPATH\Controllers\Admin\menu.php on line 16.
+ 1 APPPATH\Controllers\Admin\menu.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $file', 'APPPATH\\Controllers\\Admin\\menu.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\menu->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\menu))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 11:16:44 --> Undefined variable $newdata
+in APPPATH\Controllers\Admin\User.php on line 23.
+ 1 APPPATH\Controllers\Admin\User.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newdata', 'APPPATH\\Controllers\\Admin\\User.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\User->create()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-27 19:55:39 --> Undefined variable $session
+in APPPATH\Controllers\Admin\User.php on line 28.
+ 1 APPPATH\Controllers\Admin\User.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Admin\\User.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Admin\User->read()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
